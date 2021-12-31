@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>practice</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h3 class="logo">Brand <span>Name</span></h3>
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </nav>
+
+        <h1 class="big-title translate" data-speed="0.1">Discover.</h1>
+
+        <!-- when scroll the page, each header element is moving in different speed compared to the other elements  -->
+        <!-- to achineve that, add the effect to common class translate -->
+        <!-- add an attribute called "data-speed" where we 'll put the speed of the movement ' -->
+        <img src="img/person.png" class = "person translate" data-speed="-0.2" alt="">
+        <img src="img/mountain1.png" class = "mountain1 translate" data-speed="-0.2" alt="">
+        <img src="img/mountain2.png" class = "mountain2 translate" data-speed="0.4" alt="">
+        <img src="img/mountain3.png" class = "mountain3 translate" data-speed="0.3" alt="">
+        <img src="img/sky.png" class = "sky translate" data-speed="0.3" alt="">
+    </header>
+    <section>
+        <div class="shadow"></div>
+
+        <div class="container">
+            <div class="content opacity">
+                <h3 class="title">About
+                    <div class="border"></div>
+                </h3>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam minima doloribus esse. Neque veniam perferendis quaerat ducimus quisquam fugit a consequuntur autem esse obcaecati. Reprehenderit modi natus laborum expedita.</p>
+            </div>
+            <div class="imgContainer opacity">
+                    <img src="img/image.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <script src="app2.js"></script>
+</body>
+</html>
